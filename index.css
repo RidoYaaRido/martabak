@@ -1,0 +1,61 @@
+html {
+	scroll-behavior: smooth;
+  }
+  
+  body {
+	font-family: sans-serif;
+	font-size: 1rem; /* Gunakan rem */
+  }
+  
+  /*Navbar*/
+  .navbar {
+	/* Gunakan padding-top sebagai alternatif */
+	padding-top: 1em; 
+  }
+  .small-logo {
+    width: 120px; 
+    height: auto;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+	color: white;
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+	color: orange;
+  }
+  
+  .navbar .navbar-brand  {
+	font-size: 2rem; /* Gunakan rem */
+  }
+  /*Akhir Navbar*/
+  
+  /*Footer*/
+  .footer {
+	margin-top: 10em; /* Gunakan em */
+	border-width: 3px;
+  }
+  
+  .footer-body {
+	margin-top: 4em; /* Gunakan em */
+	margin-bottom: 3em; /* Gunakan em */
+  }
+  /*Akhir Footer*/
+  
+  /*Home*/
+  .judul {
+	margin-bottom: 8em; /* Gunakan em */
+  }
+  
+  .card-img:hover {
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.4);  
+  }
+  
+  /*Akhir Home*/
+  
+  /* Media Query */
+  @media (max-width: 768px) {
+	.navbar .navbar-brand {
+	  font-size: 1.5rem; 
+	}
+  }
